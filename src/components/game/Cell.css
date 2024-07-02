@@ -1,0 +1,11 @@
+.cell {
+    display: flex;
+    overflow: hidden;
+}
+
+.ficha {
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    margin: auto;
+}

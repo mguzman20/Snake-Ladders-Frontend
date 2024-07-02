@@ -1,0 +1,23 @@
+
+.board {
+    margin: 0 auto;
+    flex-direction: column;
+    width: 500px;
+    background-image: url("/imgs/Tablero1.jpg");
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    width: 50px;
+    height: 48px;
+    border: 1px solid black;
+    text-align: center;
+    
+}

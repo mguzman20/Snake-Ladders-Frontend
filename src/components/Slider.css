@@ -1,0 +1,50 @@
+
+.slider{
+    margin: 5% 10% 5% 10%;
+    color: #666666;
+    height: 400px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #4C99D4;
+  
+}
+
+.slick-dots li button:before {
+    color: #4C99D4;
+  }
+
+.slick-dots li.slick-active button:before {
+    color: #4C99D4 !important;
+}
+
+.slider-element{
+    display: flex !important;
+    align-items: flex-start;
+}
+
+.slider-element img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+}
+
+.slider-content{
+    font-size: large;
+    font: bold;
+    text-align: left;
+    align-items: center;
+    width:50%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+
+
+

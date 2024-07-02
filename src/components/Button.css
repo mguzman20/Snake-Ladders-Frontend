@@ -1,0 +1,18 @@
+.button-green{
+    background-color: #4C99D4;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 6px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-green:hover{
+    background-color: #86C70E;
+}

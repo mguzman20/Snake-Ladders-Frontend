@@ -1,0 +1,19 @@
+.team-member-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-member-card {
+  flex: 0 1 300px;
+  margin: 20px;
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+}
+
+.avatar-info {
+  height: 150px;
+  width: 150px;
+  padding: 1px;
+  border-radius: 50%;}

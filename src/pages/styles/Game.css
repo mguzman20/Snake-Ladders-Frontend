@@ -1,0 +1,21 @@
+.main-div{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    margin-top: 1%;
+    margin: 3%;
+    padding: 2%;
+}
+
+.ficha-individual{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 90px;
+    width: 50px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}

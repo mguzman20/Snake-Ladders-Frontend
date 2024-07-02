@@ -1,0 +1,73 @@
+.register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .register-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .register-container input[type="text"],
+  .register-container input[type="email"],
+  .register-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .register-container button[type="button"],
+  .register-container input[type="submit"] {
+    background-color: #4C99D4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-left: 5%;
+    cursor: pointer;
+  }
+  
+  .register-container button[type="button"]:hover,
+  .register-container input[type="submit"]:hover {
+    background-color: #86C70E;
+  }
+  
+  .register-container .show-password {
+    margin-top: 10px;
+
+  }
+  
+  .register-container .show-password button {
+    background-color: transparent;
+    border: none;
+    color: #4C99D4;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .register-container .show-password button:hover {
+    text-decoration: underline;
+  }
+
+  .password-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .password-container label {
+    margin-right: 10px;
+    flex-grow: 1;
+  }
+  
+  .password-container button {
+    margin-left: 10px;
+  }
+

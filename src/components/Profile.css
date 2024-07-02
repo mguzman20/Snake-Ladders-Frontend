@@ -1,0 +1,32 @@
+.profile-green {
+    font-size: 1.7em;
+    line-height: 1.1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4C99D4;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.6em 0.6em;
+    border-radius: 4px;
+    background-color: #86C70E;
+
+  }
+
+  .profile-container {
+    border: 1px solid #4C99D4;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+
+
+  .profile-container p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+  }

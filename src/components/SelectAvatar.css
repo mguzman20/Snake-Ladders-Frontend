@@ -1,0 +1,25 @@
+.avatar {
+  height: 150px;
+  width: 150px;
+  padding: 1px;
+  border: 0px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+  margin: 1%;
+}
+
+.selected {
+  border-color: #86C70E;
+  border-width: 5px;
+}
+
+.display-home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1%;
+  justify-content: space-around;
+  align-items: center;
+}
